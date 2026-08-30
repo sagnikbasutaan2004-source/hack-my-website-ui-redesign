@@ -29,6 +29,7 @@ import { LandingRemediationLoop } from "@/components/landing-remediation-loop";
 import { LandingPostureComparison } from "@/components/landing-posture-comparison";
 import { LandingEvidenceProof } from "@/components/landing-evidence-proof";
 import { LandingPrioritization } from "@/components/landing-prioritization";
+import { HeroMinimalistCanvas } from "@/components/hero-minimalist-canvas";
 
 export const metadata: Metadata = {
   title: "How It Works & Scanner Workflow",
@@ -85,7 +86,8 @@ export default function HowItWorksPage() {
         {/* ========================================================================= */}
         {/* SECTION 01: PAGE HERO (#070A10)                                           */}
         {/* ========================================================================= */}
-        <section className="relative pt-16 pb-16 md:pt-24 md:pb-24 border-b border-slate-800/80 bg-[#070A10]">
+        <section className="relative pt-16 pb-16 md:pt-24 md:pb-24 border-b border-slate-800/80 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#0e2920] via-[#090e18] to-[#04060c] overflow-hidden">
+          <HeroMinimalistCanvas />
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8 relative z-10">
             <div className="flex items-center justify-center gap-3 text-xs font-mono text-slate-400">
               <span className="h-px w-8 bg-slate-800" />

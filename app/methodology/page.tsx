@@ -13,6 +13,7 @@ import {
 
 import { LandingHeader } from "@/components/landing-header";
 import { LandingFooter } from "@/components/landing-footer";
+import { HeroMinimalistCanvas } from "@/components/hero-minimalist-canvas";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -53,11 +54,15 @@ export default function MethodologyPage() {
     <div className="min-h-screen text-neutral-100 selection:bg-emerald-500 selection:text-neutral-950 font-sans antialiased">
       <LandingHeader />
 
-      <main className="py-12 md:py-20 bg-[#070A10]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-          
-          {/* HEADER SECTION */}
-          <div className="space-y-4 text-center max-w-3xl mx-auto">
+      <main className="bg-[#070A10]">
+        {/* HERO HEADER WITH MINIMALIST CANVAS & RADIAL GRADIENT */}
+        <section className="relative py-12 md:py-20 border-b border-slate-800/80 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#0e2920] via-[#090e18] to-[#04060c] overflow-hidden">
+          <HeroMinimalistCanvas />
+
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16 relative z-10">
+            
+            {/* HEADER SECTION */}
+            <div className="space-y-4 text-center max-w-3xl mx-auto">
             <div className="flex items-center justify-center gap-3 text-xs font-mono text-slate-400">
               <span className="h-px w-8 bg-slate-800" />
               <span className="text-emerald-400 font-bold">Scientific Threat Modeling & Scoring Matrix</span>
@@ -391,7 +396,8 @@ export default function MethodologyPage() {
             </div>
           </div>
 
-        </div>
+          </div>
+        </section>
       </main>
 
       <LandingFooter />
