@@ -1,0 +1,22 @@
+# Hack My Website
+
+Hack My Website is a security scanner designed specifically for websites built with AI coding tools (such as Cursor, Lovable, Bolt, Claude Code, and v0). It runs comprehensive technical vulnerability audits and provides plain-English summaries alongside exact copy-paste prompts for AI editors to automatically refactor and patch security holes.
+
+## Main Pages
+- [Homepage](https://hmw.aivilabs.com/): Product summary, features list, and waitlist registration.
+- [Sample Report](https://hmw.aivilabs.com/sample-report): An interactive, illustrative security brief showing the exact report format, findings classification, and AI remediation prompts.
+- [Contact Page](https://hmw.aivilabs.com/contact): Early access waitlist form, mail support channels, and custom plan requests.
+- [Privacy Policy](https://hmw.aivilabs.com/privacy-policy): Explains credentials storage, Firebase integration, and our ephemeral cloning guarantee for GitHub scans.
+- [Terms & Conditions](https://hmw.aivilabs.com/terms-and-conditions): Legal terms, verification requirements, and liability boundaries.
+
+## Key Features
+- **Technical Scanning Pipeline**: Integrates OWASP ZAP, Nuclei, and Semgrep to scan verified HTTP origins.
+- **Domain Verification**: Requires DNS TXT or file-based verification to prevent unauthorized scanning.
+- **AI Launch Score**: Evaluates security basics, auth safety, API exposure, and payment risk to deliver a readiness verdict (0-100).
+- **AI Remediation Prompts**: Automatically translates security vulnerabilities into direct, actionable prompts for AI coding editors.
+
+## Pricing Plans
+- **Starter (₹1,999/month)**: 1 website, 3 scans/month, manual AI Launch Score, PDF report download.
+- **Pro (₹2,999/month)**: 3 websites, 30 scans/month, weekly launch monitoring, PDF report download.
+- **Agency (₹4,999/month)**: 10 websites, 150 scans/month, weekly launch monitoring, white-labeled PDF reports.
+- **Custom (Contact Sales)**: Tailored website limits, higher scan volumes, priority support.

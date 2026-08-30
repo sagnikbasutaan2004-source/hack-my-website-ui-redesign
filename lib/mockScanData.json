@@ -1,0 +1,30 @@
+{
+  "domain_url": "staging.hackmywebsite.io",
+  "launch_score": 85,
+  "verified": true,
+  "vulnerabilities": [
+    {
+      "id": "vuln_001",
+      "title": "Missing Content-Security-Policy (CSP) Header",
+      "severity": "medium",
+      "category": "HTTP Security Headers",
+      "description": "No Content-Security-Policy header was detected on the primary origin domain.",
+      "ai_fix_prompt": "Add a Content-Security-Policy header in Next.js next.config.js headers configuration restricting script-src to 'self'."
+    },
+    {
+      "id": "vuln_002",
+      "title": "Strict-Transport-Security (HSTS) Missing max-age",
+      "severity": "low",
+      "category": "SSL/TLS Configuration",
+      "description": "HSTS header is present but missing includeSubDomains directive.",
+      "ai_fix_prompt": "Update Strict-Transport-Security header to include 'max-age=63072000; includeSubDomains; preload'."
+    }
+  ],
+  "threat_intel": {
+    "safe_browsing": "CLEAN",
+    "ssl_expiration_days": 87,
+    "dns_spf": true,
+    "dns_dmarc": true,
+    "blacklists": []
+  }
+}

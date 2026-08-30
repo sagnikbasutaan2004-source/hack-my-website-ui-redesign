@@ -1,0 +1,68 @@
+<svg width="760" height="620" viewBox="0 0 760 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Website security scan illustration</title>
+  <desc id="desc">A browser window being scanned for web vulnerabilities with radar rings, shield markers, and severity signals.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.34"/>
+      <stop offset="46%" stop-color="#00FF88" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="154" y1="96" x2="610" y2="522" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#122219"/>
+      <stop offset="1" stop-color="#050806"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="185" y1="132" x2="560" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FF88"/>
+      <stop offset="1" stop-color="#00B86B"/>
+    </linearGradient>
+    <filter id="shadow" x="84" y="54" width="592" height="510" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="28"/>
+      <feGaussianBlur stdDeviation="34"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.25 0 0 0 0 0.13 0 0 0 0.45 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="760" height="620" rx="40" fill="#050806"/>
+  <rect width="760" height="620" rx="40" fill="url(#glow)"/>
+  <path d="M64 524C164 456 202 548 312 498C405 456 406 355 520 338C603 326 646 369 704 318" stroke="#00FF88" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M50 126H704" stroke="#00FF88" stroke-opacity="0.11"/>
+  <path d="M84 202H674" stroke="#00FF88" stroke-opacity="0.07"/>
+  <path d="M126 282H636" stroke="#00FF88" stroke-opacity="0.07"/>
+  <path d="M84 364H674" stroke="#00FF88" stroke-opacity="0.07"/>
+  <path d="M130 444H628" stroke="#00FF88" stroke-opacity="0.07"/>
+  <g filter="url(#shadow)">
+    <rect x="128" y="92" width="504" height="404" rx="26" fill="url(#panel)" stroke="#1F3D2C"/>
+    <rect x="128" y="92" width="504" height="58" rx="26" fill="#07100B"/>
+    <path d="M128 150H632" stroke="#1F3D2C"/>
+    <circle cx="164" cy="121" r="7" fill="#44524A"/>
+    <circle cx="188" cy="121" r="7" fill="#44524A"/>
+    <circle cx="212" cy="121" r="7" fill="#44524A"/>
+    <rect x="248" y="110" width="252" height="22" rx="11" fill="#0F1A14" stroke="#223C2D"/>
+    <path d="M270 122H466" stroke="#00FF88" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
+    <rect x="168" y="186" width="178" height="146" rx="20" fill="#07100B" stroke="#244533"/>
+    <text x="194" y="226" fill="#00FF88" font-family="Consolas, monospace" font-size="18" font-weight="700">SCAN SCORE</text>
+    <text x="194" y="288" fill="#F7F7F2" font-family="Arial, sans-serif" font-size="70" font-weight="800">68</text>
+    <text x="276" y="288" fill="#FFB454" font-family="Arial, sans-serif" font-size="24" font-weight="800">HIGH</text>
+    <path d="M418 201C454 165 512 165 548 201C584 237 584 295 548 331C512 367 454 367 418 331C382 295 382 237 418 201Z" stroke="#00FF88" stroke-width="3" stroke-opacity="0.9"/>
+    <path d="M454 237C470 221 496 221 512 237C528 253 528 279 512 295C496 311 470 311 454 295C438 279 438 253 454 237Z" stroke="#00FF88" stroke-opacity="0.32" stroke-width="16"/>
+    <path d="M483 181V351" stroke="#00FF88" stroke-opacity="0.22"/>
+    <path d="M398 266H568" stroke="#00FF88" stroke-opacity="0.22"/>
+    <path d="M483 266L552 224" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="483" cy="266" r="8" fill="#00FF88"/>
+    <rect x="168" y="366" width="122" height="42" rx="12" fill="#2B1212" stroke="#5F2929"/>
+    <text x="190" y="393" fill="#FF8A8A" font-family="Consolas, monospace" font-size="16" font-weight="700">Critical 0</text>
+    <rect x="306" y="366" width="104" height="42" rx="12" fill="#2E240D" stroke="#5F4315"/>
+    <text x="328" y="393" fill="#FFB454" font-family="Consolas, monospace" font-size="16" font-weight="700">High 2</text>
+    <rect x="426" y="366" width="120" height="42" rx="12" fill="#28270E" stroke="#575015"/>
+    <text x="448" y="393" fill="#FDE047" font-family="Consolas, monospace" font-size="16" font-weight="700">Medium 5</text>
+    <rect x="168" y="430" width="378" height="22" rx="11" fill="#0B1510"/>
+    <rect x="168" y="430" width="286" height="22" rx="11" fill="url(#accent)"/>
+  </g>
+  <path d="M594 190L626 203V238C626 277 601 304 594 309C587 304 562 277 562 238V203L594 190Z" fill="#03130B" stroke="#00FF88" stroke-width="3"/>
+  <path d="M580 237L590 247L611 222" stroke="#00FF88" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="594" cy="249" r="78" stroke="#00FF88" stroke-opacity="0.12" stroke-width="2"/>
+  <circle cx="594" cy="249" r="112" stroke="#00FF88" stroke-opacity="0.08" stroke-width="2"/>
+</svg>
